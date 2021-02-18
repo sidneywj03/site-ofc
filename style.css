@@ -1,14 +1,14 @@
 .btns {
-    text-align: left;
-    margin-top: 50px;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .efeito {
     border: none;
     color: white;
-    padding: 20px;
+    padding: 15px;
     margin: 10px;
-    font-size: 24px;
+    font-size: 15px;
     line-height: 24px;
     border-radius: 10px;
     position: relative;
@@ -21,13 +21,13 @@
     background-color: #28348a;
 }
 
-.efeito:before {
+.efeito-1:before {
     content: ''; 
     position: absolute;
     top: 0px;
     left: 0px;
     width: 0px;
-    height: 64px;
+    height: 45px;
     background: rgba(255,255,255,0.3);
     border-radius: 10px;
     transition: all 2s ease;
