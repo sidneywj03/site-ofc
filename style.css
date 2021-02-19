@@ -26,3 +26,27 @@
     color: #28348a;
     box-shadow: inset 0 0 0 3px #28348a;    
 }
+
+.efeito-2 {
+    background: #28348a;
+    transform-style: preserve-3d;
+}
+
+.efeito:after {
+    top: -100%;
+    left: 0px;
+    width: 100%;
+    padding: 5px;
+    position: absolute;
+    background: #28348a;
+    border-radius: 10px;
+    box-sizing: border-box;
+    content: 'Conheça um pouco sobre mim!';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+}
+
+.efeito-2:hover {
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
+}
